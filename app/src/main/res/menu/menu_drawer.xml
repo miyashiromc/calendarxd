@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_Agenda"
+            android:icon="@drawable/ic_agenda"
+            android:title="Agenda" />
+        <item
+            android:id="@+id/nav_Dia"
+            android:icon="@drawable/ic_day"
+            android:title="Día" />
+        <item
+            android:id="@+id/nav_3dias"
+            android:icon="@drawable/ic_daay"
+            android:title="3 días" />
+        <item
+            android:id="@+id/nav_Semana"
+            android:icon="@drawable/ic_semana"
+            android:title="Semana" />
+        <item
+            android:id="@+id/nav_Mes"
+            android:icon="@drawable/ic_mes"
+            android:title="Mes" />
+    </group>
+    <item android:title="@string/linea" />
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_actualizar"
+            android:icon="@drawable/ic_refresh"
+            android:title="Actualizar" /></group>
+    <item android:title="@string/linea" />
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_x"
+            android:icon="@drawable/ic_settings"
+            android:title="Configuración" />
+        <item
+            android:id="@+id/nav_xs"
+            android:icon="@drawable/ic_ayuda"
+            android:title="Ayuda y comentarios" />
+    </group>
+</menu>

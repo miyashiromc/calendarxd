@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/action_add_event"
+            android:icon="@drawable/ic_settings"
+            android:title="Fuera de la oficina" />
+        <item
+            android:id="@+id/action_view_schedule"
+            android:icon="@drawable/ic_ayuda"
+            android:title="Ubicación de trabajo" />
+        <item
+            android:id="@+id/action_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Tarea" />
+        <item
+            android:id="@+id/action_ses"
+            android:icon="@drawable/ic_settings"
+            android:title="Evento" />
+
+    </group>
+
+</menu>

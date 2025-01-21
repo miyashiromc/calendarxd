@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">Calendar App</string>
+    <string name="drawer_open">Abrir menú</string>
+    <string name="drawer_close">Cerrar menú</string>
+    <string name="linea">__________________________</string>
+</resources>
